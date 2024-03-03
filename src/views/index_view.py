@@ -11,3 +11,4 @@ class Index_View(View_Interface):
     
     def refresh(self) -> View_Interface:
         return Index_View()
+
