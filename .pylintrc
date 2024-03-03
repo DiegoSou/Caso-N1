@@ -1,22 +1,23 @@
 [MAIN]
 
 disable=
-      C0305, # Trailing newlines
-      C0116, # Missing function or method docstring
+      C0103, # Class name doesn't conform to PascalCase naming style
       C0114, # Missing module docstring
       C0115, # Missing class docstring
-      E0015, # unrecognized option
-      W0703, # catching too general exception Exception
+      C0116, # Missing function or method docstring
       C0209, # consider using f string
+      C0301, # Line too long
+      C0303, # Trailing whitespace
+      C0305, # Trailing newlines
       C0321, # Multiple statements
+      E0015, # unrecognized option
+      E0602, # Undefined variable
       R0801, # Duplicated code
       R1722, # Consider using 'sys.exit' instead
-      C0303, # Trailing whitespace
       R0903, # Too few public methods (1/2) 
+      W0703, # catching too general exception Exception
       W0719, # Raising too general exception
       W0707, # Consider explicitly re-raising
-      C0301, # Line too long
-      C0103, # Class name doesn't conform to PascalCase naming style
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
